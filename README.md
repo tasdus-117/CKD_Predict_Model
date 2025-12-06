@@ -92,7 +92,7 @@ The table below summarizes the **Accuracy** scores:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [[https://github.com/](https://github.com/)[your-username]/[repo-name].git](https://github.com/tasdus-117/CKD_Predict_Model)
+    git clone https://github.com/tasdus-117/CKD_Predict_Model
     ```
 2.  **Install dependencies:**
     ```bash
@@ -100,7 +100,7 @@ The table below summarizes the **Accuracy** scores:
     ```
 3.  **Run the Project:**
     ```bash
-    jupyter notebook Main_Project.ipynb
+    jupyter notebook MachineLearning_Project.ipynb
     ```
 
 ## Authors
