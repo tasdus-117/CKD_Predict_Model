@@ -51,7 +51,7 @@ We implemented and compared the following algorithms:
 1.  **K-Nearest Neighbors (K-NN)**
 2.  **Naive Bayes (Mixed Approach)**
 3.  **Logistic Regression**
-4.  **Linear Regression** (Experimental approach for regression tasks)
+4.  **Linear Regression**
 5.  **Random Forest**
 
 ##  My Contribution
@@ -71,24 +71,28 @@ I implemented a **Mixed Naive Bayes** approach:
 * **Categorical/Multinomial Naive Bayes:** Applied to discrete/categorical features.
 * **Fusion:** Combined the posterior probabilities from both parts to make the final prediction.
 
-## 📈 Experimental Results
+## Experimental Results
 
-Below is the performance comparison on the Test set:
+We evaluated the performance of the **Naive Bayes** model across different Train-Test split ratios and feature extraction techniques.
 
-| Model | Accuracy | Precision | Recall | Notes |
-|:---|:---:|:---:|:---:|:---|
-| **Mixed Naive Bayes** (My Model) | **XX.X%** | **XX.X%** | **XX.X%** | Handles mixed data effectively |
-| K-NN | XX.X% | ... | ... | |
-| Logistic Regression | XX.X% | ... | ... | |
-| Random Forest | XX.X% | ... | ... | Best performance observed |
+The table below summarizes the **Accuracy** scores:
 
-*(Note: Replace XX.X% with your actual results)*
+| Train:Test Split | Original Data | PCA (6 Components) | LDA (1 Component) |
+|:---:|:---:|:---:|:---:|
+| **80:20** (4:1) | 97.50% | 98.75% | **100.0%** |
+| **70:30** (7:3) | 95.83% | 98.33% | **100.0%** |
+| **60:40** (6:4) | 94.38% | 98.12% | **100.0%** |
 
-## 🚀 Installation
+### Key Findings
+1.  **LDA Superiority:** Using Linear Discriminant Analysis (LDA) with just 1 component resulted in **perfect accuracy (100%)** across all data splits. This indicates that the classes (Chronic Kidney Disease vs. Non-CKD) are linearly separable when projected onto the LDA axis.
+2.  **PCA Improvement:** PCA (reduced to 6 components) consistently outperformed the Original Data model, proving that dimensionality reduction helped eliminate noise and improve generalization.
+3.  **Stability:** The model performance remains robust even when the training set size is reduced (e.g., 60:40 split).
+
+## Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[your-username]/[repo-name].git
+    git clone [[https://github.com/](https://github.com/)[your-username]/[repo-name].git](https://github.com/tasdus-117/CKD_Predict_Model)
     ```
 2.  **Install dependencies:**
     ```bash
@@ -99,7 +103,7 @@ Below is the performance comparison on the Test set:
     jupyter notebook Main_Project.ipynb
     ```
 
-## 👨‍💻 Authors
+## Authors
 * **[Nguyen Chi Hoang Tu]** - *Data Preprocessing & Naive Bayes*
 * [Duong Cong Kien] - *Logistic Regression, Linear Regression &  Random Forest*
 * [Tran Xuan Viet] - *K-NN, PCA, & LDA*
