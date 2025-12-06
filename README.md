@@ -1,9 +1,3 @@
-Here is the English version of the README.md for your Chronic Kidney Disease Prediction project.
-
-It highlights your specific role in Data Preprocessing and the implementation of the Mixed Naive Bayes model, which is a strong talking point for your portfolio.
-
-Markdown
-
 # Chronic Kidney Disease Prediction
 
 This project builds a Machine Learning model to predict and diagnose **Chronic Kidney Disease (CKD)** based on biomedical indicators. The project involves a comprehensive comparison of various classification algorithms and applies dimensionality reduction techniques to optimize performance.
