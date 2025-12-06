@@ -1,0 +1,105 @@
+Here is the English version of the README.md for your Chronic Kidney Disease Prediction project.
+
+It highlights your specific role in Data Preprocessing and the implementation of the Mixed Naive Bayes model, which is a strong talking point for your portfolio.
+
+Markdown
+
+# Chronic Kidney Disease Prediction
+
+This project builds a Machine Learning model to predict and diagnose **Chronic Kidney Disease (CKD)** based on biomedical indicators. The project involves a comprehensive comparison of various classification algorithms and applies dimensionality reduction techniques to optimize performance.
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Processing Pipeline](#processing-pipeline)
+- [Models Implemented](#models-implemented)
+- [My Contribution](#my-contribution)
+- [Experimental Results](#experimental-results)
+- [Installation](#installation)
+
+##  Introduction
+Chronic Kidney Disease is a major global health issue. This project aims to assist in early diagnosis by analyzing patient records. We compare the effectiveness of multiple classification models and utilize PCA/LDA for feature extraction.
+
+##  Dataset
+The dataset includes various features such as Age, Blood Pressure, Blood Glucose, etc.
+* **Source:** [UCI Machine Learning Repository - Chronic_Kidney_Disease](https://archive.ics.uci.edu/ml/datasets/chronic_kidney_disease)
+* **Characteristics:** Mixed dataset containing both **numerical** and **categorical** features.
+
+##  Processing Pipeline
+
+
+[Image of Machine Learning Pipeline]
+
+
+### 1. Data Preprocessing
+This is a critical step to ensure model performance on the mixed CKD dataset.
+* **Handling Missing Values:** Imputed missing numerical data using Mean/Median and categorical data using Mode.
+* **Encoding:** Applied Label Encoding and One-Hot Encoding.
+* **Normalization:** Min-Max Scaling / Standard Scaling to bring features to a common scale.
+
+### 2. Feature Extraction
+Dimensionality reduction was applied to remove noise and improve training speed:
+* **PCA (Principal Component Analysis)**
+* **LDA (Linear Discriminant Analysis)**
+
+##  Models Implemented
+We implemented and compared the following algorithms:
+1.  **K-Nearest Neighbors (K-NN)**
+2.  **Naive Bayes (Mixed Approach)**
+3.  **Logistic Regression**
+4.  **Linear Regression** (Experimental approach for regression tasks)
+5.  **Random Forest**
+
+##  My Contribution
+
+In this group project, I was the **Lead for Data Engineering** and the **Naive Bayes Model Architect**.
+
+### 1. Data Preprocessing
+* Conducted data cleaning for the raw dataset.
+* Performed descriptive statistical analysis to determine optimal imputation strategies for missing values.
+* Standardized the input data for distance-based models (like K-NN and PCA).
+
+### 2. Mixed Naive Bayes Implementation
+Since the CKD dataset contains both **continuous features** (e.g., Blood Pressure, Age) and **discrete features** (e.g., Hypertension, Edema), a standard Gaussian Naive Bayes would not be optimal.
+
+I implemented a **Mixed Naive Bayes** approach:
+* **Gaussian Naive Bayes:** Applied to continuous/numerical features.
+* **Categorical/Multinomial Naive Bayes:** Applied to discrete/categorical features.
+* **Fusion:** Combined the posterior probabilities from both parts to make the final prediction.
+
+## 📈 Experimental Results
+
+Below is the performance comparison on the Test set:
+
+| Model | Accuracy | Precision | Recall | Notes |
+|:---|:---:|:---:|:---:|:---|
+| **Mixed Naive Bayes** (My Model) | **XX.X%** | **XX.X%** | **XX.X%** | Handles mixed data effectively |
+| K-NN | XX.X% | ... | ... | |
+| Logistic Regression | XX.X% | ... | ... | |
+| Random Forest | XX.X% | ... | ... | Best performance observed |
+
+*(Note: Replace XX.X% with your actual results)*
+
+## 🚀 Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/](https://github.com/)[your-username]/[repo-name].git
+    ```
+2.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Run the Project:**
+    ```bash
+    jupyter notebook Main_Project.ipynb
+    ```
+
+## 👨‍💻 Authors
+* **[Nguyen Chi Hoang Tu]** - *Data Preprocessing & Naive Bayes*
+* [Duong Cong Kien] - *Logistic Regression, Linear Regression &  Random Forest*
+* [Tran Xuan Viet] - *K-NN, PCA, & LDA*
