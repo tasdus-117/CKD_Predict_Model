@@ -1,3 +1,5 @@
+## CKD Predict Model
+
 This project builds a Machine Learning model to predict and diagnose **Chronic Kidney Disease (CKD)** based on biomedical indicators. The project involves a comprehensive comparison of various classification algorithms and applies dimensionality reduction techniques to optimize performance.
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
