@@ -1,4 +1,4 @@
-# Chronic Kidney Disease Prediction
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5e62191e-1445-4bcb-8a37-0b533b74e44e" /># Chronic Kidney Disease Prediction
 
 This project builds a Machine Learning model to predict and diagnose **Chronic Kidney Disease (CKD)** based on biomedical indicators. The project involves a comprehensive comparison of various classification algorithms and applies dimensionality reduction techniques to optimize performance.
 
@@ -25,7 +25,7 @@ The dataset includes various features such as Age, Blood Pressure, Blood Glucose
 
 ##  Processing Pipeline
 
-![Văn bản thay thế](đường_dẫn_hoặc_URL_của_ảnh)
+![Văn bản thay thế](https://lh3.googleusercontent.com/gg-dl/ABS2GSnZmxYlXMLylE2Ah-U8qNQl7aXOJfqqrf_cCZkEmGDOGguGk2Eb7Ifmib_Phl-KuNVUwb02RFz0fM6GCpEc3t_tIX5wD-W3r5B9WEwgMQ-4RWraNnsPcpui52doGsjq9hNIFTsb2SnaTDtMxNL977Tcvwnqz1-eYE0hYTvzPmr8dx40Jw=s1024-rj?authuser=2)
 
 ### 1. Data Preprocessing
 This is a critical step to ensure model performance on the mixed CKD dataset.
