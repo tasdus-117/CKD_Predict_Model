@@ -1,5 +1,3 @@
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5e62191e-1445-4bcb-8a37-0b533b74e44e" /># Chronic Kidney Disease Prediction
-
 This project builds a Machine Learning model to predict and diagnose **Chronic Kidney Disease (CKD)** based on biomedical indicators. The project involves a comprehensive comparison of various classification algorithms and applies dimensionality reduction techniques to optimize performance.
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
