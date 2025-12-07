@@ -25,6 +25,8 @@ The dataset includes various features such as Age, Blood Pressure, Blood Glucose
 
 ##  Processing Pipeline
 
+![Văn bản thay thế](đường_dẫn_hoặc_URL_của_ảnh)
+
 ### 1. Data Preprocessing
 This is a critical step to ensure model performance on the mixed CKD dataset.
 * **Handling Missing Values:** Imputed missing numerical data using Mean/Median and categorical data using Mode.
