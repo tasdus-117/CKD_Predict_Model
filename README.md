@@ -25,7 +25,7 @@ The dataset includes various features such as Age, Blood Pressure, Blood Glucose
 
 ##  Processing Pipeline
 
-![Văn bản thay thế](https://lh3.googleusercontent.com/gg-dl/ABS2GSnZmxYlXMLylE2Ah-U8qNQl7aXOJfqqrf_cCZkEmGDOGguGk2Eb7Ifmib_Phl-KuNVUwb02RFz0fM6GCpEc3t_tIX5wD-W3r5B9WEwgMQ-4RWraNnsPcpui52doGsjq9hNIFTsb2SnaTDtMxNL977Tcvwnqz1-eYE0hYTvzPmr8dx40Jw=s1024-rj?authuser=2)
+## [Văn bản thay thế](https://lh3.googleusercontent.com/gg-dl/ABS2GSnZmxYlXMLylE2Ah-U8qNQl7aXOJfqqrf_cCZkEmGDOGguGk2Eb7Ifmib_Phl-KuNVUwb02RFz0fM6GCpEc3t_tIX5wD-W3r5B9WEwgMQ-4RWraNnsPcpui52doGsjq9hNIFTsb2SnaTDtMxNL977Tcvwnqz1-eYE0hYTvzPmr8dx40Jw=s1024-rj?authuser=2)
 
 ### 1. Data Preprocessing
 This is a critical step to ensure model performance on the mixed CKD dataset.
